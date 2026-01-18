@@ -1,7 +1,7 @@
 reports/*
 !reports/.gitkeep
-!reports/incident_report.md
-!reports/incident_report.json
+!reports/sample_incident_report.md
+!reports/sample_incident_report.json
 __pycache__/
 *.pyc
 .venv/

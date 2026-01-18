@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T14:26:05.228993",
+    "auth_log": "demo/demo_auth.log",
+    "firewall_log": "demo/demo_firewall.log"
+  },
+  "incidents": [
+    {
+      "source_ip": "198.51.100.77",
+      "failed_logins": 3,
+      "firewall_blocks": 2,
+      "destination_ports": {
+        "22": 1,
+        "3389": 1
+      },
+      "risk": "HIGH",
+      "label": "[HIGH RISK]",
+      "notes": "Correlated from auth + firewall logs (demo or real)."
+    },
+    {
+      "source_ip": "203.0.113.45",
+      "failed_logins": 4,
+      "firewall_blocks": 2,
+      "destination_ports": {
+        "22": 2
+      },
+      "risk": "MEDIUM",
+      "label": "[MEDIUM RISK]",
+      "notes": "Correlated from auth + firewall logs (demo or real)."
+    }
+  ]
+}
